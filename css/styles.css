@@ -4,8 +4,6 @@
 
 .index-page {
     font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/stock.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +135,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
     font-size: 18px;
     background: transparent;
     border-bottom: 2px solid rgba(255,255,255,.2);
@@ -150,21 +148,17 @@ header {
     align-items: center;
 }
 
-.logo img {
-    width: 65px;
-    margin: auto;
-}
-
 .logo-btn {
     color: white;
     margin: auto;
+    margin-left: 10px;
     text-decoration: none;
     display: inline-block;
     transition: transform 0.3s ease;
 }
 
 .logo-btn:hover {
-    color: #5da9d8;
+    color: #ffffff;
     transform: scale(1.08);
 }
 
@@ -188,7 +182,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #5da9d8;
+    color: #ffffff;
     transform: scale(1.08);
 }
 
@@ -250,11 +244,12 @@ nav a:hover {
 
 #funcionalidades li {
     display: block; /* Hace que cada elemento esté en una nueva línea */
-    background: rgba(255, 255, 255, 0.2); /* Color de fondo semi-transparente */
+    background: rgba(100, 97, 97, 0.664); /* Color de fondo semi-transparente */
     padding: 15px 20px; /* Espaciado dentro de la caja */
     margin: 10px auto; /* Espaciado entre las cajas y las centra */
     width: fit-content; /* La caja se ajusta al contenido */
     border-radius: 10px; /* Bordes redondeados */
+    border-color: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
     font-weight: bold; /* Texto en negrita */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
